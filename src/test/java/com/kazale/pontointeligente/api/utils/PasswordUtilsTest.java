@@ -8,7 +8,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 public class PasswordUtilsTest {
 	
-	private static final String SENHA = "123456";
+	private static final String SENHA = "doc123";
 	private final BCryptPasswordEncoder bCryptEncoder = new BCryptPasswordEncoder();
 
 	@Test

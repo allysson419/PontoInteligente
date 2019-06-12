@@ -22,7 +22,7 @@ public class PasswordUtils {
 			return senha;
 		}
 
-		log.info("Gerando hash com o BCrypt.");
+		log.info("Gerando hash com o BCrypt - Romilsim");
 		BCryptPasswordEncoder bCryptEncoder = new BCryptPasswordEncoder();
 		return bCryptEncoder.encode(senha);
 	}
